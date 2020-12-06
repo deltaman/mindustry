@@ -2,7 +2,7 @@ Host Server :
 
 Run docker directly
 
-docker run -ti -p 6567:6567/tcp -p 6567:6567/udp frankbaele/mindustry
+docker run -ti -p 6567:6567/tcp -p 6567:6567/udp deltaman01/mindustry
 
 Run docker-compose with following config
 
@@ -10,7 +10,7 @@ Run docker-compose with following config
 version: '3.5' # lower version to work with current ubuntu lts
 services:
   mindustry:
-    image: frankbaele/mindustry
+    image: deltaman01/mindustry
     
     # enable tty and stdin to make `docker attach` work
     tty: true
