@@ -6,7 +6,7 @@ const fs = require('fs');
 const util = require('util');
 const readFile = util.promisify(fs.readFile);
 const scriptTimeout = 5000;
-const owner = "frankbaele";
+const owner = "deltaman01";
 const repo = "mindustry";
 
 async function updateDockerFile(version) {
