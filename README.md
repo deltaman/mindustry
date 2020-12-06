@@ -33,3 +33,6 @@ services:
 Roadmap
 - expose server configuration
 - add dev builds
+
+Details
+- Downloads the latest version by default from: https://github.com/Anuken/Mindustry/releases/latest
